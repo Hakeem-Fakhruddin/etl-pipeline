@@ -1,0 +1,7 @@
+"raw_{data}":
+  type: pandas.CSVDataset
+  filepath: data/01_raw/{data}.csv
+
+"cleaned_{data}":
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/cleaned_{data}.csv
